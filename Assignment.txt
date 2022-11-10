@@ -1,0 +1,6 @@
+
+
+1. Add input field which updates a property (‘username’) Via two-way-binding
+2. Output the username property via String interpolation (in a paragraph below the input) 
+3. Add a button which may only be click if the username is NOT an empty string
+4. Upon click the button, the username should be reset an empty string
