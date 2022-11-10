@@ -9,6 +9,7 @@ import { TestingGenerateShortComponent } from './testing-generate-short/testing-
 import { InputEventBindingComponent } from './input-event-binding/input-event-binding.component';
 import { FormsModule } from '@angular/forms';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { AssignmentSolutionComponent } from './assignment-solution/assignment-solution.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     WithoutTestingComponent,
     TestingGenerateShortComponent,
     InputEventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    AssignmentSolutionComponent
   ],
   imports: [
     BrowserModule,
